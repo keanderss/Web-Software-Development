@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reset feedback!</title>
+  </head>
+  <body>
+    <h1>Do you really want to reset feedback?</h1>
+    <form method="POST" action="/reset">
+        <input type="submit" value="Reset"></input>
+    </form>
+  </body>
+</html>
