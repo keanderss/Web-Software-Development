@@ -5,7 +5,7 @@
   </head>
   <body>
     <form method="POST" action="/books/<%= it.book.id %>">
-      <label for="book">Book:</label>
+      <label for="name">Book name:</label>
       <input type="text" id="name" name="name" value="<%= it.book.name %>" />
       <br/>
       <label for="pages">Number of pages:</label>

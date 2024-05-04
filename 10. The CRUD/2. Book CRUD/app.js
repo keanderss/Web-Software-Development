@@ -17,19 +17,3 @@ app.post("/books/:id", bookController.updateBook);
 app.post("/books/:id/delete", bookController.deleteBook);
 
 export default app;
-
-// In addition to the paths,
-// also adjust the application so that for each book,
-// you store the name,
-// the number of pages,
-// and the ISBN.
-
-// As labels for the form fields,
-// use "Book name:", DONE!
-// "Number of pages:", DONE!
-// and "ISBN:". DONE!
-
-// For the button labels, DONE!
-// use "Add" for adding a book, DONE!
-// "Delete" for deleting a book, DONE!
-// and "Update" for updating a book. DONE!
