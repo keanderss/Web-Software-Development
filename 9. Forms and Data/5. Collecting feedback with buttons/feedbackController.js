@@ -14,7 +14,7 @@ const renderReset = async (c) => {
 const getFeedback = async (c) => {
     const id = c.req.param("id");
     if (0 < id && id < 6) {
-        return c.text(`Feedback: ${await feedbackService.getFeedback(id)}`);
+        return c.text(`Feedback ${id}: ${await feedbackService.getFeedback(id)}`);
     }
 }
 
