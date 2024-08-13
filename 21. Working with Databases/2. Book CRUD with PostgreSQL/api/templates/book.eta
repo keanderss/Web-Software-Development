@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book</title>
+  </head>
+  <body>
+    <%~ include("/partials/validation-errors.eta", { field: "Book name", errors: it?.errors?.name?._errors }) %>
+    <%~ include("/partials/validation-errors.eta", { field: "Number of pages", errors: it?.errors?.pages?._errors }) %>
+    <%~ include("/partials/validation-errors.eta", { field: "ISBN", errors: it?.errors?.isbn?._errors }) %>
+    <form method="POST" action="/books/<%= it.book.id %>">
+      <label for="name">Book name:</label>
+      <input type="text" id="name" name="name" value="<%= it.book.name %>" />
+      <br/>
+      <label for="pages">Number of pages:</label>
+      <input type="text" id="pages" name="pages" value="<%= it.book.pages %>" />
+      <br/>
+      <label for="isbn">ISBN:</label>
+      <input type="text" id="isbn" name="isbn" value="<%= it.book.isbn %>" />
+      <br/>
+      <input type="submit" value="Update" />
+    </form>
+    <p><a href="/books">Back to books</a></p>
+  </body>
+</html>

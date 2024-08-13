@@ -3,12 +3,8 @@ import * as feedbackService from "./feedbackService.js";
 
 const eta = new Eta({ views: `${Deno.cwd()}/templates/` })
 
-const renderFeedback = async (c) => {
+const renderFeedback = (c) => {
     return c.html(eta.render("index.eta"));
-}
-
-const renderReset = async (c) => {
-    return c.html(eta.render("reset.eta"));
 }
 
 const getFeedback = async (c) => {
@@ -26,11 +22,4 @@ const incrementFeedback = async (c) => {
     }
 }
 
-const resetFeedback = async (c) => {
-    for (let id = 1; id < 6; id++) {
-        feedbackService.setFeedback(id, 0)
-    }
-    return c.redirect("/");
-}
-
-export { getFeedback, incrementFeedback, renderFeedback, resetFeedback, renderReset };
+export { getFeedback, incrementFeedback, renderFeedback };

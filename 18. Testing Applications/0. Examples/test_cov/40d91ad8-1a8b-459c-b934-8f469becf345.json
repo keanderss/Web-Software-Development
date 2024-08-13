@@ -1,0 +1,16 @@
+{
+  "scriptId": "329",
+  "url": "https://deno.land/std@0.222.1/assert/assert_rejects.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 1602, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "assertRejects",
+      "ranges": [{ "startOffset": 229, "endOffset": 1601, "count": 0 }],
+      "isBlockCoverage": false
+    }
+  ]
+}

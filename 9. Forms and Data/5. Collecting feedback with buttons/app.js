@@ -8,7 +8,4 @@ app.get("/", feedbackController.renderFeedback);
 app.get("/feedbacks/:id", feedbackController.getFeedback);
 app.post("/feedbacks/:id", feedbackController.incrementFeedback);
 
-app.get("/reset", feedbackController.renderReset);
-app.post("/reset", feedbackController.resetFeedback);
-
 export default app;

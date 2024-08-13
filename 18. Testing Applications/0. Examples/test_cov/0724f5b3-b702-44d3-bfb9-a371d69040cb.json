@@ -1,0 +1,16 @@
+{
+  "scriptId": "332",
+  "url": "https://deno.land/std@0.222.1/assert/assert_throws.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 1291, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "assertThrows",
+      "ranges": [{ "startOffset": 229, "endOffset": 1290, "count": 0 }],
+      "isBlockCoverage": false
+    }
+  ]
+}

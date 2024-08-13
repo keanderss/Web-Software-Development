@@ -1,0 +1,16 @@
+{
+  "scriptId": "313",
+  "url": "https://deno.land/std@0.222.1/assert/assert_array_includes.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 1294, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "assertArrayIncludes",
+      "ranges": [{ "startOffset": 704, "endOffset": 1293, "count": 0 }],
+      "isBlockCoverage": false
+    }
+  ]
+}

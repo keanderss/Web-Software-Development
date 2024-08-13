@@ -1,0 +1,16 @@
+{
+  "scriptId": "316",
+  "url": "https://deno.land/std@0.222.1/assert/assert_false.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 547, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "assertFalse",
+      "ranges": [{ "startOffset": 453, "endOffset": 546, "count": 0 }],
+      "isBlockCoverage": false
+    }
+  ]
+}

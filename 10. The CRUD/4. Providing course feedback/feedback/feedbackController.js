@@ -3,7 +3,7 @@ import * as feedbackService from "./feedbackService.js";
 
 const eta = new Eta({ views: `${Deno.cwd()}/templates` })
 
-const renderFeedback = async (c) => {
+const renderFeedback = (c) => {
     return c.html(eta.render("index.eta"));
 }
 

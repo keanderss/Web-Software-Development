@@ -15,4 +15,4 @@ const setFeedback = async (id, value) => {
     await kv.set([`${id}`], value);
 };
 
-export { getFeedback, setFeedback , incrementFeedback }
+export { getFeedback, incrementFeedback }

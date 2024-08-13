@@ -1,0 +1,24 @@
+{
+  "scriptId": "314",
+  "url": "https://deno.land/std@0.222.1/assert/assert_equals.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 1701, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "assertEquals",
+      "ranges": [
+        { "startOffset": 911, "endOffset": 1700, "count": 2 },
+        { "startOffset": 1020, "endOffset": 1099, "count": 0 },
+        { "startOffset": 1100, "endOffset": 1105, "count": 0 },
+        { "startOffset": 1305, "endOffset": 1336, "count": 0 },
+        { "startOffset": 1372, "endOffset": 1399, "count": 0 },
+        { "startOffset": 1400, "endOffset": 1460, "count": 0 },
+        { "startOffset": 1589, "endOffset": 1699, "count": 0 }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scriptId": "318",
+  "url": "https://deno.land/std@0.222.1/assert/assert_greater.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 792, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "assertGreater",
+      "ranges": [{ "startOffset": 546, "endOffset": 791, "count": 0 }],
+      "isBlockCoverage": false
+    }
+  ]
+}

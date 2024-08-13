@@ -1,0 +1,21 @@
+{
+  "scriptId": "310",
+  "url": "file:///C:/Users/KenZu/GitHub/Web-Software-Development/18.%20Testing%20Applications/0.%20Examples/services/helloService.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 189, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getHello",
+      "ranges": [{ "startOffset": 58, "endOffset": 87, "count": 2 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "setHello",
+      "ranges": [{ "startOffset": 109, "endOffset": 154, "count": 1 }],
+      "isBlockCoverage": true
+    }
+  ]
+}

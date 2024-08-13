@@ -1,0 +1,16 @@
+{
+  "scriptId": "330",
+  "url": "https://deno.land/std@0.222.1/assert/assert_strict_equals.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 1750, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "assertStrictEquals",
+      "ranges": [{ "startOffset": 759, "endOffset": 1749, "count": 0 }],
+      "isBlockCoverage": false
+    }
+  ]
+}

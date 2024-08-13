@@ -1,0 +1,16 @@
+{
+  "scriptId": "308",
+  "url": "file:///C:/Users/KenZu/GitHub/Web-Software-Development/18.%20Testing%20Applications/0.%20Examples/app_test.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 214, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 162, "endOffset": 212, "count": 1 }],
+      "isBlockCoverage": true
+    }
+  ]
+}

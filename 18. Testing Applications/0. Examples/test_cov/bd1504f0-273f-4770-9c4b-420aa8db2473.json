@@ -1,0 +1,16 @@
+{
+  "scriptId": "333",
+  "url": "https://deno.land/std@0.222.1/assert/assert.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 571, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "assert",
+      "ranges": [{ "startOffset": 481, "endOffset": 570, "count": 0 }],
+      "isBlockCoverage": false
+    }
+  ]
+}

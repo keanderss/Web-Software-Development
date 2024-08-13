@@ -1,0 +1,16 @@
+{
+  "scriptId": "323",
+  "url": "https://deno.land/std@0.222.1/assert/assert_match.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 753, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "assertMatch",
+      "ranges": [{ "startOffset": 510, "endOffset": 752, "count": 0 }],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+import { sql } from "./database.js";
+
+// Create
+const createTodo = async (todo) => {
+    await sql`INSERT INTO todos (todo) VALUES (${ todo.todo })`;
+};
+
+// Read
+const listTodos = async () => {
+    return await sql`SELECT * FROM todos`;
+};
+  
+const getTodo = async (id) => {
+    const rows = await sql`SELECT * FROM todos WHERE id = ${ id }`;
+    return rows?.[0] ?? {};
+};
+
+// Update
+const updateTodo = async (id, todo) => {
+    await sql`UPDATE todos SET todo = ${ todo.todo } WHERE id = ${ id }`;
+};
+
+// Delete
+const deleteTodo = async (id) => {
+    await sql`DELETE FROM todos WHERE id = ${ id }`;
+};
+  
+export { createTodo, getTodo, listTodos, updateTodo, deleteTodo };
